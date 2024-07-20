@@ -1,0 +1,383 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+}
+
+/* Video Background */
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+}
+
+header nav li {
+    margin-right: 20px;
+    padding-left: 20px;
+    text-decoration: none; /* Remove underline from links */
+    display: inline; /* Ensure li elements are displayed inline */
+}
+
+header nav a {
+    text-decoration: none; /* Ensure links inside li have no underline */
+    color: #fff; /* Set link color if needed */
+}
+
+header .logo {
+    margin-top: 10px;
+}
+
+/* Hero Section Styles */
+.hero {
+    color: #fff;
+    padding: 150px 20px 100px;
+    text-align: center;
+    position: relative;
+}
+
+.hero .content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .cta {
+    background-color: #f700ff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.hero .cta:hover {
+    background-color: #a6449f;
+    box-shadow: 0 4px 8px rgb(117, 250, 120);
+}
+
+.content > h1 {
+    color: #d402fa;
+}
+
+.content > p {
+    color: #a33bb6;
+}
+
+/* Features Section Styles */
+.features {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00ff22;
+}
+
+.features ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+}
+
+.features li {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.features .feature-box {
+    background: linear-gradient(to bottom right, #65e171, #8697c4);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.features .feature-box:hover {
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+    transform: translateY(-5px);
+}
+
+.features .feature-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+    transform: rotate(45deg);
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.features .feature-box:hover::before {
+    left: 100%;
+}
+
+.features i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #3d52a0;
+}
+
+.features h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.features p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Candidate Portal Styles */
+.candidate-portal {
+    padding: 50px 20px;
+    background-color: transparent;
+}
+
+.candidate-portal > h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00e741;
+}
+
+.candidate-portal p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #84e975;
+}
+
+.candidate-portal .cta {
+    background-color: #ec3fe0;
+    padding: 15px 30px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 4px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.candidate-portal .cta:hover {
+    background-color: #5f0250;
+    box-shadow: 0 8px 8px rgba(32, 254, 3, 0.2);
+}
+
+/* Recruiter Portal Styles */
+.recruiter-portal {
+    padding: 50px 20px;
+    background-color: transparent;
+}
+
+.recruiter-portal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00e741;
+}
+
+.recruiter-portal p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #84e975;
+}
+
+.recruiter-portal .cta {
+    background-color: #ec3fe0;
+    padding: 15px 30px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 4px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.recruiter-portal .cta:hover {
+    background-color: #5f0250;
+    box-shadow: 0 8px 8px rgba(32, 254, 3, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+    padding: 20px;
+    text-align: center;
+    color: #00e741;
+    border-top: 1px solid #e9ecef;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Popup Animations */
+.features .feature-box:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.features .feature-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.features .feature-box .popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+/* Chatbox Styles */
+#chatbox-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    z-index: 2000;
+}
+
+#chatbox {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.8);
+    transition: transform 0.5s ease;
+}
+
+#chatbox-container.chatbox-visible #chatbox {
+    transform: scale(1);
+}
+
+#chatbox-container.chatbox-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#chatbox-container.chatbox-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+#chat-content {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.user-message {
+    text-align: right;
+    color: #000;
+}
+
+.bot-message {
+    text-align: left;
+    color: #333;
+}
+
+#user-input {
+    border: none;
+    padding: 10px;
+    width: calc(100% - 60px);
+    border-top: 1px solid #ddd;
+}
+
+#send-btn {
+    width: 60px;
+    border: none;
+    background-color: #f700ff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+}
+
+#send-btn:hover {
+    background-color: #a6449f;
+}

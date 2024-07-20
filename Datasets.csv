@@ -1,0 +1,63 @@
+intent,questions,answers
+greet,Hello,Hi there! How can I assist you today?
+greet,Hi,Hello! How can I help you today?
+greet,Hey,Hey! What can I do for you?
+greet,Good morning,Good morning! How can I help you today?
+greet,Good afternoon,Good afternoon! How can I assist you?
+greet,Good evening,Good evening! What can I do for you?
+job_opening,i want a job,We have openings for 1. Software Engineer 2. Data Scientist 3. Product Manager.
+job_opening,What job openings are available?,We have openings for 1. Software Engineer 2. Data Scientist 3. Product Manager.
+job_opening,What positions are currently open?,We are hiring for 1. Software Engineer 2. Data Scientist 3. Product Manager.
+job_opening,Do you have any job vacancies?,Yes we are looking for 1. Software Engineer 2. Data Scientist 3. Product Mana.0ger.
+job_opening,Are there any roles available?,Yes we currently have openings for 1. Software Engineer 2. Data Scientist 3. Product Manager.
+job_opening,Can you tell me about current job opportunities?,We have positions available for 1. Software Engineer 2. Data Scientist 3. Product Manager.
+apply_job,How can I apply for a job?,You can apply through our website or by sending your resume to hr@company.com.
+apply_job,What is the application process?,You can apply online via our careers page or send your resume to hr@company.com.
+apply_job,Can I submit my application online?,Yes please visit our careers page to apply online.
+apply_job,Where can I send my resume?,You can send your resume to hr@company.com or apply through our website.
+apply_job,What should I include in my job application?,Please include your resume cover letter and any relevant portfolio or work samples.
+apply_job,Is there an application fee?,No there is no fee to apply for a job with us.
+schedule_interview,How can I schedule an interview?,You can schedule an interview by selecting a time slot on our calendar or by contacting our HR team.
+schedule_interview,I want to schedule an interview,Please choose a time slot on our interview calendar or contact our HR team.
+schedule_interview,Can I book an interview slot?,Yes you can book a slot on our interview calendar or reach out to HR.
+schedule_interview,When can I schedule an interview?,You can choose any available slot on our interview calendar or contact our HR department for assistance.
+schedule_interview,How do I set up an interview?,Select a time slot from our calendar or get in touch with our HR team to arrange an interview.
+company_info,What is the company's mission?,Our mission is to innovate and lead in our industry.
+company_info,What are your company values?,Our values include integrity innovation and excellence.
+company_info,Can you tell me about the company's vision?,Our vision is to be the market leader and set industry standards.
+company_info,What is the purpose of the company?,We aim to drive innovation and deliver quality products/services to our customers.
+company_info,Where is the company headquartered?,Our headquarters is located in [City] [Country].
+company_info,How long has the company been in business?,We have been in business for over [X] years.
+benefits,What benefits do you offer?,We offer health insurance retirement plans and flexible working hours.
+benefits,What perks are available to employees?,Employees enjoy health insurance retirement plans and flexible hours.
+benefits,Can you list the employee benefits?,Our benefits include health insurance retirement plans and flexible working hours.
+benefits,Do you provide health insurance?,Yes we provide comprehensive health insurance for all employees.
+benefits,Are there any employee discounts?,Yes employees receive discounts on our products and services.
+benefits,What is the retirement plan like?,We offer a 401(k) plan with company matching contributions.
+feedback,How can I give feedback?,You can provide feedback through our online form or by sending an email to feedback@company.com.
+feedback,I have a suggestion for improvement,How can I share it? Please send your suggestion to feedback@company.com or fill out our online feedback form.
+feedback,Where can I leave a review?,You can leave a review on our website or on our social media pages.
+feedback,How do I report a problem?,Please contact our support team at support@company.com or use the contact form on our website.
+support,How do I contact support?,You can reach our support team via email at support@company.com or by calling our hotline.
+support,What support options are available?,We offer support via email phone and live chat.
+support,Can I get help with a technical issue?,Yes our support team can assist you with technical issues. Please provide details of the problem.
+support,How long does it take to get a response from support?,Our response time is typically within 24 hours.
+support,Where can I find the user manual?,The user manual can be found on our website under the "Support" section.
+complaint,I want to file a complaint,How can I do that? Please email your complaint to complaints@company.com or use our online complaint form.
+complaint,How do I escalate a complaint?,You can escalate your complaint by contacting our customer service manager at escalation@company.com.
+complaint,What is the process for handling complaints?,Complaints are reviewed by our team and resolved in a timely manner. We will keep you updated on the status.
+pricing,What is the price of [product/service]?,The price of [product/service] is [price]. For more details please visit our pricing page.
+pricing,Are there any discounts available?,We offer seasonal discounts and promotions. Please check our website for the latest offers.
+pricing,How can I get a quote?,You can get a quote by contacting our sales team at sales@company.com or by filling out our online request form.
+pricing,Do you offer bulk pricing?,Yes we offer bulk pricing for large orders. Please contact us for more details.
+pricing,What payment methods do you accept?,We accept various payment methods including credit/debit cards PayPal and bank transfers.
+goodbye,Thank you,You're welcome! Have a great day!
+goodbye,Bye,Goodbye! Feel free to reach out if you have more questions!
+goodbye,See you,See you! Have a nice day!
+goodbye,Thanks for your help,You're welcome! Have a wonderful day!
+goodbye,Have a good day,Thank you! Have a great day ahead!
+farewell,Goodbye,Goodbye! If you need further assistance don't hesitate to contact us.
+farewell,Take care,Take care! We're here if you need us.
+farewell,See you later,See you later! Have a great day!
+farewell,Thanks for chatting,Thanks for chatting with us! Have a great day!
+farewell,Have a nice day,Have a nice day! Feel free to reach out anytime.

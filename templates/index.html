@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Recruitment Chatbot</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="static/Background video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="navt">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="content">
+                <h1>Welcome to AI-Powered Recruitment Chatbot</h1>
+                <p>Revolutionize your recruitment process with our AI-powered chatbot</p>
+                <button class="cta" id="start-chat">Start Chatting</button>
+            </div>
+        </section>
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>
+                    <div class="feature-box">
+                        <i class="icon-chatbot"></i>
+                        <h3>AI-Powered Chatbot</h3>
+                        <p>Our chatbot uses natural language processing to understand and respond to candidate queries</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="feature-box">
+                        <i class="icon-schedule"></i>
+                        <h3>Advanced Scheduling</h3>
+                        <p>Our scheduling system integrates with Google Calendar, Microsoft Exchange, and iCal to ensure seamless interview scheduling</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="feature-box">
+                        <i class="icon-skills"></i>
+                        <h3>Skill and Psychometric Tests</h3>
+                        <p>Our tests are designed to assess candidate skills and personality traits, providing a comprehensive view of their fit for the role</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="candidate-portal">
+            <h2>Candidate Portal</h2>
+            <p>Our candidate portal provides a seamless experience for candidates to apply, track their application, and schedule interviews</p>
+            <a href="candidate" class="cta">Login/Register</a>
+        </section>
+        <section class="recruiter-portal">
+            <h2>Recruiter Portal</h2>
+            <p>Our recruiter portal provides a comprehensive view of candidate applications, interview schedules, and test results</p>
+            <a href="recruiter_login" class="cta">Login/Register</a>
+        </section>
+        <!-- Chatbox Section -->
+        <section id="chat-section" style="display: none;">
+            <div id="chat-box">
+                <div id="chat-content"></div>
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 AI-Powered Recruitment Chatbot</p>
+    </footer>
+    <script src="static/scripts.js"></script>
+</body>
+</html>
